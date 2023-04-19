@@ -16,8 +16,7 @@ class app {
 
 		try {
 			// Fetch IP address by getByName()
-			InetAddress googleIp = InetAddress.getByName(new URL(googleUrl)
-													.getHost());
+			InetAddress googleIp = InetAddress.getByName(new URL(googleUrl).getHost());
 
 			// Print the IP address
 			System.out.println("Public IP Address of: " + googleIp);
@@ -31,8 +30,7 @@ class app {
 		
 		try {
 			// Fetch IP address by getByName()
-			InetAddress amazonIp = InetAddress.getByName(new URL(amazonUrl)
-													.getHost());
+			InetAddress amazonIp = InetAddress.getByName(new URL(amazonUrl).getHost());
 
 			// Print the IP address
 			System.out.println("Public IP Address of: " + amazonIp);
@@ -46,8 +44,7 @@ class app {
 		
 		try {
 			// Fetch IP address by getByName()
-			InetAddress facebookIp = InetAddress.getByName(new URL(facebookUrl)
-													.getHost());
+			InetAddress facebookIp = InetAddress.getByName(new URL(facebookUrl).getHost());
 
 			// Print the IP address
 			System.out.println("Public IP Address of: " + facebookIp);
